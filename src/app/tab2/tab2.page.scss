@@ -1,0 +1,47 @@
+ion-content,
+div {
+  --background: #222940;
+}
+
+ion-item.inputs {
+  --background: #222940;
+  --color: #F2784B;
+  border: #F2784B 1px solid;
+  margin: 18px 0;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 16px;
+}
+
+ion-item {
+  --background: #222940;
+  --color: white;
+  font-weight: 100;
+  text-align: center;
+  font-size: 14px;
+}
+
+ion-list {
+  background: #222940;
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+ion-item.logue {
+  padding: 0;
+}
+
+div.flex {
+  width: 130px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.flex ion-button {
+  width: 50px;
+  height: 50px;
+  --border-radius: 50%;
+}
